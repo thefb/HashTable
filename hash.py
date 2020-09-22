@@ -87,8 +87,3 @@ class HashTable:
             else:
                 prev.next = prev.next.next
             return result
-
-
-ht = HashTable()
-
-print(ht.hash("FISAD"))
